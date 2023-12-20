@@ -1,4 +1,4 @@
-import serial, time
+import serial
 from PyQt5 import QtCore
 class ApplicationManager:
     def __init__(self, ui):
