@@ -21,7 +21,7 @@ void loop() {
   logR2 = log(R2);
   T = (1.0 / (c1 + c2*logR2 + c3*logR2*logR2*logR2));
   Tc = T - 273.15 +58;
-  volume = 2.663 * pulse / 1000 * 30;
+  float volume = 2.663 * pulse / 1000 * 30;
   if (millis() - lastTime > 2000)
   {
     pulse = 0;
@@ -29,10 +29,10 @@ void loop() {
   }
   Serial.print("Temperature: "); 
   Serial.print(Tc);
-  Serial.println("--------------- \n")
   Serial.println(" C");   
+  Serial.println("--------------- \n");
   Serial.println(volume);
-  Serial.println(" L/m \n")
+  Serial.println(" L/m \n");
 
   delay(500);
 }

@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-
+import ApplicationManager as AppManager
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -280,5 +280,6 @@ if __name__ == "__main__":
     Form = QtWidgets.QWidget()
     ui = Ui_Form()
     ui.setupUi(Form)
+    MAESTRO = AppManager.ApplicationManager(ui)
     Form.show()
     sys.exit(app.exec_())
