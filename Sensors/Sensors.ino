@@ -27,12 +27,10 @@ void loop() {
     pulse = 0;
     lastTime = millis();
   }
-  Serial.print("Temperature: "); 
-  Serial.print(Tc);
-  Serial.println(" C");   
-  Serial.println("--------------- \n");
+  Serial.print("T"); 
+  Serial.print(Tc); 
+  Serial.println("V");
   Serial.println(volume);
-  Serial.println(" L/m \n");
 
   delay(500);
 }
