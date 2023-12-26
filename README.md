@@ -30,7 +30,7 @@ Vital-Signals-Monitor is a Python desktop application designed to monitor vital 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YoussefHassanien/Vital-Signals-Monitor.git
+   git clone https://github.com/MoHazem02/Vital-Signals-Monitor.git
    cd Vital-Signals-Monitor
    ```
 
