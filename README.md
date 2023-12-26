@@ -2,6 +2,9 @@
 
 Vital-Signals-Monitor is a Python desktop application designed to monitor vital signs of a patient, including heartbeat, body temperature, and the flow rate from a medical IV bag to the patient's body. The application integrates Arduino for sensor interfacing and PyQt5 for the graphical user interface.
 
+![image](https://github.com/MoHazem02/Vital-Signals-Monitor/assets/66066832/2ec6f997-07dc-413a-828b-40e30e3ee9eb)
+
+
 ## Features
 
 1. **Heartbeat Monitoring:** Utilizes a heartbeat sensor to continuously monitor and display the patient's heart rate in real-time.
